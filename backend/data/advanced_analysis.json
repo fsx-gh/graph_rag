@@ -1,0 +1,636 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "name": "李家族长",
+      "age": 65,
+      "occupation": "官员",
+      "description": "家族领导者"
+    },
+    {
+      "id": "2",
+      "name": "李大人",
+      "age": 45,
+      "occupation": "官员",
+      "description": "族人，核心关键人物"
+    },
+    {
+      "id": "3",
+      "name": "李二人",
+      "age": 42,
+      "occupation": "商人",
+      "description": "族人，经商"
+    },
+    {
+      "id": "4",
+      "name": "李三人",
+      "age": 40,
+      "occupation": "官员",
+      "description": "族人，朝代官员"
+    },
+    {
+      "id": "5",
+      "name": "王家主人",
+      "age": 60,
+      "occupation": "官员",
+      "description": "邻族领导者"
+    },
+    {
+      "id": "6",
+      "name": "王大人",
+      "age": 38,
+      "occupation": "商人",
+      "description": "王族核心成员"
+    },
+    {
+      "id": "7",
+      "name": "王二人",
+      "age": 35,
+      "occupation": "学者",
+      "description": "王族学者"
+    },
+    {
+      "id": "8",
+      "name": "张富商",
+      "age": 55,
+      "occupation": "商人",
+      "description": "大商人，独立势力"
+    },
+    {
+      "id": "9",
+      "name": "张二",
+      "age": 32,
+      "occupation": "商人",
+      "description": "张富商的伙伴"
+    },
+    {
+      "id": "10",
+      "name": "张三",
+      "age": 28,
+      "occupation": "商人",
+      "description": "张富商的伙伴"
+    },
+    {
+      "id": "11",
+      "name": "陈书生",
+      "age": 30,
+      "occupation": "学者",
+      "description": "文人，知识分子"
+    },
+    {
+      "id": "12",
+      "name": "陈二人",
+      "age": 29,
+      "occupation": "学者",
+      "description": "文人，知识分子"
+    },
+    {
+      "id": "13",
+      "name": "陈三人",
+      "age": 26,
+      "occupation": "学者",
+      "description": "文人，知识分子"
+    },
+    {
+      "id": "14",
+      "name": "刘县令",
+      "age": 52,
+      "occupation": "官员",
+      "description": "地方官员，权力中心"
+    },
+    {
+      "id": "15",
+      "name": "刘副手",
+      "age": 40,
+      "occupation": "官员",
+      "description": "刘县令的助手"
+    },
+    {
+      "id": "16",
+      "name": "刘三",
+      "age": 35,
+      "occupation": "官员",
+      "description": "刘县令的属下"
+    },
+    {
+      "id": "17",
+      "name": "何家主",
+      "age": 58,
+      "occupation": "官员",
+      "description": "何家族长"
+    },
+    {
+      "id": "18",
+      "name": "何二人",
+      "age": 36,
+      "occupation": "官员",
+      "description": "何家成员"
+    },
+    {
+      "id": "19",
+      "name": "何三人",
+      "age": 31,
+      "occupation": "商人",
+      "description": "何家成员"
+    },
+    {
+      "id": "20",
+      "name": "吴老侠",
+      "age": 62,
+      "occupation": "侠客",
+      "description": "独立侠客，多方连接"
+    },
+    {
+      "id": "21",
+      "name": "吴二",
+      "age": 33,
+      "occupation": "侠客",
+      "description": "侠客伙伴"
+    },
+    {
+      "id": "22",
+      "name": "孙财主",
+      "age": 51,
+      "occupation": "商人",
+      "description": "地方富商"
+    },
+    {
+      "id": "23",
+      "name": "孙二",
+      "age": 27,
+      "occupation": "商人",
+      "description": "孙财主的商业伙伴"
+    },
+    {
+      "id": "24",
+      "name": "赵书记",
+      "age": 48,
+      "occupation": "学者",
+      "description": "地方书记"
+    },
+    {
+      "id": "25",
+      "name": "赵二人",
+      "age": 29,
+      "occupation": "学者",
+      "description": "赵书记的学生"
+    },
+    {
+      "id": "26",
+      "name": "周医生",
+      "age": 50,
+      "occupation": "医生",
+      "description": "名医，广泛接触"
+    },
+    {
+      "id": "27",
+      "name": "周二",
+      "age": 32,
+      "occupation": "医生",
+      "description": "医生助手"
+    },
+    {
+      "id": "28",
+      "name": "郭将军",
+      "age": 59,
+      "occupation": "军人",
+      "description": "地方将领"
+    },
+    {
+      "id": "29",
+      "name": "郭副将",
+      "age": 41,
+      "occupation": "军人",
+      "description": "将军副手"
+    },
+    {
+      "id": "30",
+      "name": "许道长",
+      "age": 64,
+      "occupation": "道士",
+      "description": "道士，特殊身份"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "r1",
+      "source": "1",
+      "target": "2",
+      "type": "家族",
+      "strength": 10
+    },
+    {
+      "id": "r2",
+      "source": "1",
+      "target": "3",
+      "type": "家族",
+      "strength": 9
+    },
+    {
+      "id": "r3",
+      "source": "1",
+      "target": "4",
+      "type": "家族",
+      "strength": 8
+    },
+    {
+      "id": "r4",
+      "source": "2",
+      "target": "3",
+      "type": "兄弟",
+      "strength": 9
+    },
+    {
+      "id": "r5",
+      "source": "2",
+      "target": "4",
+      "type": "兄弟",
+      "strength": 8
+    },
+    {
+      "id": "r6",
+      "source": "3",
+      "target": "4",
+      "type": "兄弟",
+      "strength": 7
+    },
+    {
+      "id": "r7",
+      "source": "2",
+      "target": "6",
+      "type": "商业",
+      "strength": 7
+    },
+    {
+      "id": "r8",
+      "source": "3",
+      "target": "6",
+      "type": "商业",
+      "strength": 7
+    },
+    {
+      "id": "r9",
+      "source": "5",
+      "target": "6",
+      "type": "家族",
+      "strength": 10
+    },
+    {
+      "id": "r10",
+      "source": "5",
+      "target": "7",
+      "type": "家族",
+      "strength": 9
+    },
+    {
+      "id": "r11",
+      "source": "6",
+      "target": "7",
+      "type": "兄弟",
+      "strength": 8
+    },
+    {
+      "id": "r12",
+      "source": "7",
+      "target": "11",
+      "type": "学友",
+      "strength": 8
+    },
+    {
+      "id": "r13",
+      "source": "11",
+      "target": "12",
+      "type": "同事",
+      "strength": 9
+    },
+    {
+      "id": "r14",
+      "source": "12",
+      "target": "13",
+      "type": "同事",
+      "strength": 8
+    },
+    {
+      "id": "r15",
+      "source": "11",
+      "target": "13",
+      "type": "同事",
+      "strength": 7
+    },
+    {
+      "id": "r16",
+      "source": "8",
+      "target": "9",
+      "type": "商业",
+      "strength": 10
+    },
+    {
+      "id": "r17",
+      "source": "8",
+      "target": "10",
+      "type": "商业",
+      "strength": 10
+    },
+    {
+      "id": "r18",
+      "source": "9",
+      "target": "10",
+      "type": "商业",
+      "strength": 9
+    },
+    {
+      "id": "r19",
+      "source": "22",
+      "target": "23",
+      "type": "商业",
+      "strength": 10
+    },
+    {
+      "id": "r20",
+      "source": "8",
+      "target": "22",
+      "type": "商业",
+      "strength": 7
+    },
+    {
+      "id": "r21",
+      "source": "22",
+      "target": "6",
+      "type": "商业",
+      "strength": 6
+    },
+    {
+      "id": "r22",
+      "source": "14",
+      "target": "15",
+      "type": "上下",
+      "strength": 9
+    },
+    {
+      "id": "r23",
+      "source": "14",
+      "target": "16",
+      "type": "上下",
+      "strength": 8
+    },
+    {
+      "id": "r24",
+      "source": "15",
+      "target": "16",
+      "type": "同事",
+      "strength": 7
+    },
+    {
+      "id": "r25",
+      "source": "2",
+      "target": "14",
+      "type": "关系",
+      "strength": 7
+    },
+    {
+      "id": "r26",
+      "source": "4",
+      "target": "14",
+      "type": "关系",
+      "strength": 7
+    },
+    {
+      "id": "r27",
+      "source": "6",
+      "target": "14",
+      "type": "关系",
+      "strength": 6
+    },
+    {
+      "id": "r28",
+      "source": "17",
+      "target": "18",
+      "type": "家族",
+      "strength": 9
+    },
+    {
+      "id": "r29",
+      "source": "17",
+      "target": "19",
+      "type": "家族",
+      "strength": 8
+    },
+    {
+      "id": "r30",
+      "source": "18",
+      "target": "19",
+      "type": "兄弟",
+      "strength": 7
+    },
+    {
+      "id": "r31",
+      "source": "17",
+      "target": "14",
+      "type": "关系",
+      "strength": 8
+    },
+    {
+      "id": "r32",
+      "source": "18",
+      "target": "15",
+      "type": "关系",
+      "strength": 7
+    },
+    {
+      "id": "r33",
+      "source": "20",
+      "target": "21",
+      "type": "伙伴",
+      "strength": 9
+    },
+    {
+      "id": "r34",
+      "source": "20",
+      "target": "2",
+      "type": "关系",
+      "strength": 6
+    },
+    {
+      "id": "r35",
+      "source": "20",
+      "target": "8",
+      "type": "关系",
+      "strength": 6
+    },
+    {
+      "id": "r36",
+      "source": "20",
+      "target": "14",
+      "type": "关系",
+      "strength": 7
+    },
+    {
+      "id": "r37",
+      "source": "20",
+      "target": "26",
+      "type": "朋友",
+      "strength": 8
+    },
+    {
+      "id": "r38",
+      "source": "26",
+      "target": "27",
+      "type": "医学",
+      "strength": 9
+    },
+    {
+      "id": "r39",
+      "source": "26",
+      "target": "2",
+      "type": "客户",
+      "strength": 5
+    },
+    {
+      "id": "r40",
+      "source": "26",
+      "target": "6",
+      "type": "客户",
+      "strength": 5
+    },
+    {
+      "id": "r41",
+      "source": "26",
+      "target": "8",
+      "type": "客户",
+      "strength": 5
+    },
+    {
+      "id": "r42",
+      "source": "26",
+      "target": "14",
+      "type": "客户",
+      "strength": 6
+    },
+    {
+      "id": "r43",
+      "source": "24",
+      "target": "25",
+      "type": "师生",
+      "strength": 9
+    },
+    {
+      "id": "r44",
+      "source": "24",
+      "target": "11",
+      "type": "朋友",
+      "strength": 8
+    },
+    {
+      "id": "r45",
+      "source": "25",
+      "target": "12",
+      "type": "朋友",
+      "strength": 7
+    },
+    {
+      "id": "r46",
+      "source": "28",
+      "target": "29",
+      "type": "军事",
+      "strength": 9
+    },
+    {
+      "id": "r47",
+      "source": "28",
+      "target": "14",
+      "type": "关系",
+      "strength": 8
+    },
+    {
+      "id": "r48",
+      "source": "29",
+      "target": "16",
+      "type": "关系",
+      "strength": 6
+    },
+    {
+      "id": "r49",
+      "source": "30",
+      "target": "1",
+      "type": "宗教",
+      "strength": 7
+    },
+    {
+      "id": "r50",
+      "source": "30",
+      "target": "20",
+      "type": "朋友",
+      "strength": 8
+    },
+    {
+      "id": "r51",
+      "source": "30",
+      "target": "24",
+      "type": "精神",
+      "strength": 7
+    },
+    {
+      "id": "r52",
+      "source": "3",
+      "target": "9",
+      "type": "商业",
+      "strength": 6
+    },
+    {
+      "id": "r53",
+      "source": "11",
+      "target": "24",
+      "type": "朋友",
+      "strength": 7
+    },
+    {
+      "id": "r54",
+      "source": "21",
+      "target": "8",
+      "type": "关系",
+      "strength": 5
+    },
+    {
+      "id": "r55",
+      "source": "7",
+      "target": "24",
+      "type": "学者",
+      "strength": 7
+    },
+    {
+      "id": "r56",
+      "source": "27",
+      "target": "30",
+      "type": "精神",
+      "strength": 6
+    },
+    {
+      "id": "r57",
+      "source": "5",
+      "target": "1",
+      "type": "政治",
+      "strength": 7
+    },
+    {
+      "id": "r58",
+      "source": "10",
+      "target": "23",
+      "type": "商业",
+      "strength": 8
+    },
+    {
+      "id": "r59",
+      "source": "1",
+      "target": "28",
+      "type": "关系",
+      "strength": 6
+    },
+    {
+      "id": "r60",
+      "source": "19",
+      "target": "23",
+      "type": "商业",
+      "strength": 7
+    }
+  ]
+}

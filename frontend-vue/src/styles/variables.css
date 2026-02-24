@@ -1,0 +1,143 @@
+/* CSS 变量和全局重置 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* 背景色 */
+  --bg-primary: #f0f0f0;
+  --bg-secondary: #e8e8e8;
+  --bg-tertiary: #d8d8d8;
+  --bg-dark: #b0b0b0;
+  --bg-light: #ffffff;
+
+  /* 文本色 */
+  --text-primary: #1f2937;
+  --text-secondary: #4b5563;
+  --text-tertiary: #9ca3af;
+  --text-white: #ffffff;
+
+  /* 边框和玻璃态效果 */
+  --border-color: #c0c0c0;
+  --glass-bg: rgba(200, 200, 200, 0.15);
+  --glass-border: rgba(75, 85, 99, 0.15);
+  --glass-bg-dark: rgba(150, 150, 150, 0.2);
+  --glass-bg-light: rgba(200, 200, 200, 0.1);
+  --glass-bg-lighter: rgba(220, 220, 220, 0.15);
+
+  /* 主题色 */
+  --accent-primary: #a0a0a0;
+  --accent-secondary: #c0c0c0;
+  --accent-color: #a0a0a0;
+  --accent-light: #d8d8d8;
+  --accent-dark: #808080;
+
+  /* 状态色 */
+  --danger-color: #ef4444;
+  --danger-dark: #dc2626;
+  --success-color: #10b981;
+  --warning-color: #f59e0b;
+  --warning-yellow: #fbbf24;
+
+  /* 渐变色 */
+  --gradient-1: linear-gradient(135deg, #a0a0a0 0%, #808080 100%);
+  --gradient-2: linear-gradient(135deg, #c0c0c0 0%, #a0a0a0 100%);
+  --gradient-3: linear-gradient(135deg, #d8d8d8 0%, #c0c0c0 100%);
+  --gradient-primary: linear-gradient(135deg, #a0a0a0 0%, #c0c0c0 100%);
+  --gradient-success: linear-gradient(135deg, rgba(160, 160, 160, 0.9) 0%, rgba(128, 128, 128, 0.9) 100%);
+  --gradient-danger: linear-gradient(135deg, rgba(239, 68, 68, 0.9) 0%, rgba(220, 38, 38, 0.9) 100%);
+  --gradient-relation: linear-gradient(135deg, rgba(160, 160, 160, 0.2) 0%, rgba(200, 200, 200, 0.2) 100%);
+
+  /* 背景渐变 */
+  --bg-gradient-primary: linear-gradient(135deg, #f0f0f0 0%, #e8e8e8 50%, #f0f0f0 100%);
+  --bg-glow-1: radial-gradient(circle at 20% 20%, rgba(160, 160, 160, 0.2) 0%, transparent 50%);
+  --bg-glow-2: radial-gradient(circle at 80% 80%, rgba(200, 200, 200, 0.2) 0%, transparent 50%);
+
+  /* 透明度变量 */
+  --opacity-shadow-light: rgba(0, 0, 0, 0.05);
+  --opacity-shadow-medium: rgba(0, 0, 0, 0.08);
+  --opacity-shadow-dark: rgba(0, 0, 0, 0.12);
+  --opacity-shadow-darker: rgba(0, 0, 0, 0.2);
+  --opacity-shadow-darkest: rgba(0, 0, 0, 0.3);
+
+  /* 主题色变量 (用于半透明效果) */
+  --accent-primary-10: rgba(160, 160, 160, 0.15);
+  --accent-primary-15: rgba(160, 160, 160, 0.2);
+  --accent-primary-2: rgba(160, 160, 160, 0.25);
+  --accent-primary-3: rgba(160, 160, 160, 0.35);
+  --accent-primary-4: rgba(160, 160, 160, 0.45);
+  --accent-primary-5: rgba(160, 160, 160, 0.55);
+  --accent-primary-6: rgba(160, 160, 160, 0.65);
+  --accent-primary-8: rgba(160, 160, 160, 0.12);
+  --accent-secondary-10: rgba(200, 200, 200, 0.15);
+  --danger-10: rgba(239, 68, 68, 0.15);
+  --danger-15: rgba(239, 68, 68, 0.2);
+  --danger-3: rgba(239, 68, 68, 0.35);
+  --warning-6: rgba(251, 191, 36, 0.65);
+
+  /* 其他颜色 */
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-yellow: #fbbf24;
+  --color-green: #22c55e;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', 'Inter', sans-serif;
+  background: var(--bg-gradient-primary);
+  color: var(--text-primary);
+  overflow: hidden;
+  height: 100vh;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:
+    var(--bg-glow-1),
+    var(--bg-glow-2);
+  pointer-events: none;
+  z-index: 0;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
+#app {
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+/* 主容器 */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 56px);
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+/* 主内容区域（左侧面板 + 图谱区域） */
+.app-container>div {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}

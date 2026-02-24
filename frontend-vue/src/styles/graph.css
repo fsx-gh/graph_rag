@@ -1,0 +1,154 @@
+/* 图谱/网络可视化区域样式 */
+
+.graph-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+
+.graph-wrapper {
+  flex: 1;
+  padding: 16px;
+  overflow: hidden;
+}
+
+.graph-container {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  overflow: hidden;
+  position: relative;
+  cursor: grab;
+}
+
+.graph-container:active {
+  cursor: grabbing;
+}
+
+#graph {
+  width: 100%;
+  height: 100%;
+}
+
+/* 节点样式 */
+.node circle {
+  fill: url(#nodeGradient);
+  stroke: #573016;
+  stroke-width: 2.5px;
+  cursor: pointer;
+  opacity: 1;
+  filter: drop-shadow(0 4px 8px rgba(251, 191, 36, 0.3));
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.node:hover circle {
+  stroke: var(--accent-secondary);
+  stroke-width: 3px;
+  filter: drop-shadow(0 6px 12px var(--accent-primary-6));
+  transform: scale(1.1);
+}
+
+.node.selected circle {
+  fill: url(#selectedGradient);
+  stroke: var(--danger-color);
+  stroke-width: 3px;
+  filter: drop-shadow(0 4px 12px var(--danger-3));
+}
+
+.node.selected text {
+  fill: var(--text-white);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.node.search-result text {
+  fill: var(--text-white);
+  font-weight: 700;
+}
+
+.node.path-highlight circle {
+  fill: url(#pathGradient);
+  stroke: var(--color-yellow);
+  stroke-width: 3px;
+  filter: drop-shadow(0 4px 12px var(--warning-6));
+}
+
+.node.path-highlight text {
+  font-weight: 700;
+  fill: var(--text-white);
+  font-size: 14px;
+}
+
+.node text {
+  font-size: 13px;
+  font-weight: 600;
+  pointer-events: none;
+  fill: var(--text-white);
+  text-anchor: middle;
+  dominant-baseline: central;
+  text-shadow: 0 2px 4px var(--opacity-shadow-darker);
+}
+
+/* 连接/边样式 */
+.link {
+  stroke: var(--glass-border);
+  stroke-width: 3px;
+  stroke-linecap: round;
+  opacity: 0.4;
+  transition: all 0.3s ease;
+}
+
+.link-label {
+  font-size: 15px;
+  fill: var(--text-secondary);
+  font-weight: 700;
+  text-shadow: 0 1px 3px var(--opacity-shadow-darkest);
+}
+
+.link.path-link {
+  stroke: url(#linkGradient);
+  stroke-width: 4px;
+  opacity: 1;
+  stroke-linecap: round;
+  filter: drop-shadow(0 0 8px var(--color-green));
+  animation: flowingDash 1s linear infinite;
+}
+
+@keyframes flowingDash {
+  to {
+    stroke-dashoffset: -20;
+  }
+}
+
+/* 特殊节点样式 */
+.node circle.path-node {
+  fill: #ffeb3b;
+  stroke: #ff9800;
+  stroke-width: 3px;
+}
+
+/* 空状态 */
+.empty-state {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: var(--text-tertiary);
+}
+
+.empty-state h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  margin-bottom: 4px;
+}
+
+.empty-state p {
+  font-size: 12px;
+  color: var(--text-tertiary);
+}

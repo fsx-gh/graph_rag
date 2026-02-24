@@ -1,0 +1,312 @@
+/* 表单和输入框样式 */
+
+/* 基础输入框和选择框 */
+input,
+select {
+  width: 100%;
+  padding: 12px 16px;
+  margin: 8px 0;
+  background: var(--glass-bg-light);
+  border: 1.5px solid var(--glass-border);
+  border-radius: 10px;
+  color: var(--text-primary);
+  font-size: 13px;
+  font-family: inherit;
+  transition: all 0.3s ease;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 0 3px var(--accent-primary-2);
+  background: var(--glass-bg-lighter);
+}
+
+input::placeholder {
+  color: var(--text-tertiary);
+}
+
+/* 输入字段组件 */
+.input-field {
+  width: 100%;
+  padding: 10px 14px;
+  margin: 8px 0;
+  background: var(--glass-bg-light);
+  border: 1.5px solid var(--glass-border);
+  border-radius: 10px;
+  font-size: 13px;
+  font-family: inherit;
+  color: var(--text-primary);
+  transition: all 0.3s ease;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 0 3px var(--accent-primary-2);
+  background: var(--glass-bg-lighter);
+}
+
+.input-field::placeholder {
+  color: var(--text-tertiary);
+}
+
+/* 按钮基础样式 */
+button {
+  width: 100%;
+  padding: 12px 16px;
+  margin: 8px 0;
+  background: var(--gradient-primary);
+  color: var(--text-white);
+  border: none;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;
+  box-shadow: 0 4px 12px var(--accent-primary-3);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px var(--accent-primary-4);
+}
+
+button:active:not(:disabled) {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.3);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+button.secondary {
+  background: rgba(30, 41, 59, 0.6);
+  color: var(--text-primary);
+  border: 1.5px solid var(--glass-border);
+  box-shadow: none;
+  text-transform: none;
+}
+
+button.secondary:hover:not(:disabled) {
+  background: var(--accent-primary-10);
+  border-color: var(--accent-primary-3);
+}
+
+button.danger {
+  background: var(--gradient-2);
+  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3);
+}
+
+button.danger:hover:not(:disabled) {
+  box-shadow: 0 6px 16px rgba(239, 68, 68, 0.4);
+}
+
+/* 表单分组 */
+.form-section {
+  background: var(--bg-secondary);
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 12px;
+  border: 1px solid var(--border-color);
+}
+
+.form-section h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+}
+
+/* 搜索区域 */
+.search-section,
+.import-export-section {
+  background: var(--bg-secondary);
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 12px;
+  border: 1px solid var(--border-color);
+}
+
+.search-section h3,
+.import-export-section h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 10px;
+}
+
+.search-wrapper {
+  display: flex;
+  gap: 8px;
+}
+
+.search-wrapper input {
+  flex: 1;
+  margin: 0;
+}
+
+.search-wrapper button {
+  margin: 0;
+  flex: 0 0 auto;
+  width: auto;
+  padding: 10px 16px;
+}
+
+/* 按钮组 */
+.btn-group {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-group button {
+  flex: 1;
+  margin: 0;
+  padding: 10px 12px;
+  font-size: 12px;
+}
+
+/* 搜索字段 */
+.search-field {
+  margin-top: 8px;
+}
+
+.search-field label {
+  font-size: 12px;
+  color: var(--text-secondary);
+  display: block;
+  margin-bottom: 6px;
+}
+
+.search-field select {
+  width: 100%;
+  padding: 8px;
+  margin: 0;
+}
+
+/* 路径选择 */
+.path-select {
+  margin: 6px 0 !important;
+}
+
+/* 文件输入 */
+#fileInput {
+  display: none;
+}
+
+/* 信息框 */
+#info {
+  margin-top: 12px;
+  padding: 16px;
+  background: var(--bg-secondary);
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+}
+
+#info strong {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 8px;
+  color: var(--text-primary);
+}
+
+#info div {
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+/* 提示信息 */
+.alert {
+  position: fixed;
+  top: 72px;
+  left: 50%;
+  padding: 14px 24px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  z-index: 2000;
+  animation: alertSlide 0.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  box-shadow: 0 8px 24px var(--opacity-shadow-dark);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--glass-border);
+}
+
+.alert.success {
+  background: var(--gradient-success);
+  color: var(--text-white);
+}
+
+.alert.error {
+  background: var(--gradient-danger);
+  color: var(--text-white);
+}
+
+@keyframes alertSlide {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+/* 关系列表 */
+.relation-list {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border-color);
+}
+
+.relation-item .rel-delete {
+  background: transparent;
+  color: var(--danger-color);
+  border: 1px solid var(--danger-color);
+  padding: 4px 10px;
+  margin-left: 8px;
+  cursor: pointer;
+  font-size: 11px;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.relation-item .rel-delete:hover {
+  background: var(--danger-color);
+  color: var(--text-white);
+}
+
+/* 删除按钮 */
+.delete-person-btn {
+  background: var(--danger-color) !important;
+  margin-top: 8px;
+  padding: 10px !important;
+  font-size: 12px !important;
+  width: 100%;
+}
+
+.delete-person-btn:hover {
+  background: var(--danger-dark) !important;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+
+  .search-section,
+  .import-export-section {
+    font-size: 12px;
+  }
+
+  button {
+    padding: 10px 14px;
+    font-size: 12px;
+  }
+}

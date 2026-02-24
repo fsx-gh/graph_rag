@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+node_modules/
+frontend-vue/node_modules/
+frontend-vue/dist/

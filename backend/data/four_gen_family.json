@@ -1,0 +1,345 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "name": "祖父",
+      "age": 75,
+      "occupation": "退休",
+      "description": "第一代"
+    },
+    {
+      "id": 2,
+      "name": "祖母",
+      "age": 73,
+      "occupation": "退休",
+      "description": "第一代"
+    },
+    {
+      "id": 3,
+      "name": "长子",
+      "age": 50,
+      "occupation": "医生",
+      "description": "第二代"
+    },
+    {
+      "id": 4,
+      "name": "长子妻",
+      "age": 48,
+      "occupation": "教师",
+      "description": "第二代配偶"
+    },
+    {
+      "id": 5,
+      "name": "次子",
+      "age": 47,
+      "occupation": "工程师",
+      "description": "第二代"
+    },
+    {
+      "id": 6,
+      "name": "次子妻",
+      "age": 45,
+      "occupation": "护士",
+      "description": "第二代配偶"
+    },
+    {
+      "id": 7,
+      "name": "长女",
+      "age": 44,
+      "occupation": "会计",
+      "description": "第二代"
+    },
+    {
+      "id": 8,
+      "name": "长女夫",
+      "age": 46,
+      "occupation": "律师",
+      "description": "第二代配偶"
+    },
+    {
+      "id": 9,
+      "name": "长孙",
+      "age": 25,
+      "occupation": "程序员",
+      "description": "第三代"
+    },
+    {
+      "id": 10,
+      "name": "长孙妻",
+      "age": 24,
+      "occupation": "设计师",
+      "description": "第三代配偶"
+    },
+    {
+      "id": 11,
+      "name": "孙女",
+      "age": 23,
+      "occupation": "医学生",
+      "description": "第三代"
+    },
+    {
+      "id": 12,
+      "name": "孙女夫",
+      "age": 25,
+      "occupation": "教师",
+      "description": "第三代配偶"
+    },
+    {
+      "id": 13,
+      "name": "次孙",
+      "age": 22,
+      "occupation": "学生",
+      "description": "第三代"
+    },
+    {
+      "id": 14,
+      "name": "次孙妻",
+      "age": 21,
+      "occupation": "学生",
+      "description": "第三代配偶"
+    },
+    {
+      "id": 15,
+      "name": "外孙",
+      "age": 20,
+      "occupation": "学生",
+      "description": "第三代"
+    },
+    {
+      "id": 16,
+      "name": "外孙妻",
+      "age": 20,
+      "occupation": "学生",
+      "description": "第三代配偶"
+    },
+    {
+      "id": 17,
+      "name": "外孙女",
+      "age": 18,
+      "occupation": "高中生",
+      "description": "第三代"
+    },
+    {
+      "id": 18,
+      "name": "曾长孙",
+      "age": 3,
+      "occupation": "幼儿",
+      "description": "第四代"
+    },
+    {
+      "id": 19,
+      "name": "曾孙女",
+      "age": 2,
+      "occupation": "幼儿",
+      "description": "第四代"
+    },
+    {
+      "id": 20,
+      "name": "曾次孙",
+      "age": 1,
+      "occupation": "婴儿",
+      "description": "第四代"
+    },
+    {
+      "id": 21,
+      "name": "曾外孙",
+      "age": 1,
+      "occupation": "婴儿",
+      "description": "第四代"
+    }
+  ],
+  "relationships": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 2,
+      "type": "夫妻"
+    },
+    {
+      "id": 2,
+      "source": 1,
+      "target": 3,
+      "type": "父子"
+    },
+    {
+      "id": 3,
+      "source": 2,
+      "target": 3,
+      "type": "母子"
+    },
+    {
+      "id": 4,
+      "source": 1,
+      "target": 5,
+      "type": "父子"
+    },
+    {
+      "id": 5,
+      "source": 2,
+      "target": 5,
+      "type": "母子"
+    },
+    {
+      "id": 6,
+      "source": 1,
+      "target": 7,
+      "type": "父女"
+    },
+    {
+      "id": 7,
+      "source": 2,
+      "target": 7,
+      "type": "母女"
+    },
+    {
+      "id": 8,
+      "source": 3,
+      "target": 4,
+      "type": "夫妻"
+    },
+    {
+      "id": 9,
+      "source": 5,
+      "target": 6,
+      "type": "夫妻"
+    },
+    {
+      "id": 10,
+      "source": 7,
+      "target": 8,
+      "type": "夫妻"
+    },
+    {
+      "id": 11,
+      "source": 3,
+      "target": 9,
+      "type": "父子"
+    },
+    {
+      "id": 12,
+      "source": 4,
+      "target": 9,
+      "type": "母子"
+    },
+    {
+      "id": 13,
+      "source": 3,
+      "target": 11,
+      "type": "父女"
+    },
+    {
+      "id": 14,
+      "source": 4,
+      "target": 11,
+      "type": "母女"
+    },
+    {
+      "id": 15,
+      "source": 5,
+      "target": 13,
+      "type": "父子"
+    },
+    {
+      "id": 16,
+      "source": 6,
+      "target": 13,
+      "type": "母子"
+    },
+    {
+      "id": 17,
+      "source": 7,
+      "target": 15,
+      "type": "母子"
+    },
+    {
+      "id": 18,
+      "source": 8,
+      "target": 15,
+      "type": "父子"
+    },
+    {
+      "id": 19,
+      "source": 7,
+      "target": 17,
+      "type": "母女"
+    },
+    {
+      "id": 20,
+      "source": 8,
+      "target": 17,
+      "type": "父女"
+    },
+    {
+      "id": 21,
+      "source": 9,
+      "target": 10,
+      "type": "夫妻"
+    },
+    {
+      "id": 22,
+      "source": 11,
+      "target": 12,
+      "type": "夫妻"
+    },
+    {
+      "id": 23,
+      "source": 13,
+      "target": 14,
+      "type": "夫妻"
+    },
+    {
+      "id": 24,
+      "source": 15,
+      "target": 16,
+      "type": "夫妻"
+    },
+    {
+      "id": 25,
+      "source": 9,
+      "target": 18,
+      "type": "父子"
+    },
+    {
+      "id": 26,
+      "source": 10,
+      "target": 18,
+      "type": "母子"
+    },
+    {
+      "id": 27,
+      "source": 11,
+      "target": 19,
+      "type": "母女"
+    },
+    {
+      "id": 28,
+      "source": 12,
+      "target": 19,
+      "type": "父女"
+    },
+    {
+      "id": 29,
+      "source": 13,
+      "target": 20,
+      "type": "父子"
+    },
+    {
+      "id": 30,
+      "source": 14,
+      "target": 20,
+      "type": "母子"
+    },
+    {
+      "id": 31,
+      "source": 15,
+      "target": 21,
+      "type": "父子"
+    },
+    {
+      "id": 32,
+      "source": 16,
+      "target": 21,
+      "type": "母子"
+    }
+  ]
+}

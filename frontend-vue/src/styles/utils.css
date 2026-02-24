@@ -1,0 +1,98 @@
+/* 全局工具、动画和媒体查询 */
+
+/* 全局滚动条美化 */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent-primary) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--bg-tertiary);
+  border-radius: 5px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-primary);
+  background-clip: padding-box;
+}
+
+/* 选择文本样式 */
+::selection {
+  background: var(--accent-primary-3);
+  color: var(--text-primary);
+}
+
+::-moz-selection {
+  background: var(--accent-primary-3);
+  color: var(--text-primary);
+}
+
+/* 平滑滚动 */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 过渡动画类 */
+.slide-panel-enter-active,
+.slide-panel-leave-active {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.slide-panel-enter-from {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.slide-panel-leave-to {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+/* 响应式设计 - 平板和手机 */
+@media (max-width: 768px) {
+  .menu-center {
+    display: none;
+  }
+
+  .left-panel {
+    position: absolute;
+    height: 100%;
+    z-index: 999;
+  }
+
+  .app-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    transform: translateX(-100%);
+  }
+
+  .sidebar:not(.collapsed) {
+    transform: translateX(0);
+  }
+
+  .toggle-btn {
+    display: flex;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+
+  .modal-dialog {
+    width: 95%;
+    max-height: 90vh;
+  }
+}

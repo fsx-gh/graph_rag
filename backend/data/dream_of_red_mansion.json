@@ -1,0 +1,323 @@
+{
+  "name": "红楼梦",
+  "description": "四大名著之一，以贾宝玉、林黛玉、薛宝钗等人物为中心的爱情悲剧故事",
+  "nodes": [
+    {
+      "id": 201,
+      "name": "贾宝玉",
+      "age": 15,
+      "occupation": "公子",
+      "description": "荣国府贾政之子，聪慧多情但纨绔任性，爱上林黛玉"
+    },
+    {
+      "id": 202,
+      "name": "林黛玉",
+      "age": 14,
+      "occupation": "女性",
+      "description": "林如海之女，才华横溢，体弱多病，与贾宝玉相爱"
+    },
+    {
+      "id": 203,
+      "name": "薛宝钗",
+      "age": 15,
+      "occupation": "女性",
+      "description": "薛家女，温柔端庄，最后与贾宝玉成婚"
+    },
+    {
+      "id": 204,
+      "name": "王熙凤",
+      "age": 32,
+      "occupation": "管家",
+      "description": "荣国府管理者，精明强干，长袖善舞"
+    },
+    {
+      "id": 205,
+      "name": "贾母",
+      "age": 80,
+      "occupation": "老夫人",
+      "description": "荣国府老祖母，权势最大，慈爱孙儿"
+    },
+    {
+      "id": 206,
+      "name": "贾政",
+      "age": 55,
+      "occupation": "官员",
+      "description": "贾宝玉之父，正经严肃，对宝玉管教严格"
+    },
+    {
+      "id": 207,
+      "name": "贾敏",
+      "age": 45,
+      "occupation": "女性",
+      "description": "林黛玉之母，已故"
+    },
+    {
+      "id": 208,
+      "name": "贾琏",
+      "age": 35,
+      "occupation": "公子",
+      "description": "荣国府次主人，王熙凤之夫，好色不堪"
+    },
+    {
+      "id": 209,
+      "name": "秦可卿",
+      "age": 22,
+      "occupation": "媳妇",
+      "description": "宁国府主人媳妇，端庄贤惠，后因病去世"
+    },
+    {
+      "id": 210,
+      "name": "晴雯",
+      "age": 16,
+      "occupation": "丫鬟",
+      "description": "贾宝玉房中大丫鬟，伶俐能言善辩，芙蓉般的美貌"
+    },
+    {
+      "id": 211,
+      "name": "袭人",
+      "age": 17,
+      "occupation": "丫鬟",
+      "description": "贾宝玉房中大丫鬟，温和贤淑，与贾宝玉有一段故事"
+    },
+    {
+      "id": 212,
+      "name": "紫鹃",
+      "age": 16,
+      "occupation": "丫鬟",
+      "description": "林黛玉的丫鬟，聪敏忠心，爱护林妹妹"
+    },
+    {
+      "id": 213,
+      "name": "平儿",
+      "age": 18,
+      "occupation": "丫鬟",
+      "description": "王熙凤的贴身丫鬟，聪慧伶俐，深得王熙凤信任"
+    },
+    {
+      "id": 214,
+      "name": "香菱",
+      "age": 15,
+      "occupation": "女性",
+      "description": "薛蟠之妹，后嫁与贾琮为妻，好学上进"
+    },
+    {
+      "id": 215,
+      "name": "巧姐儿",
+      "age": 10,
+      "occupation": "女孩",
+      "description": "王熙凤与贾琏之女，聪慧可爱"
+    },
+    {
+      "id": 216,
+      "name": "林如海",
+      "age": 50,
+      "occupation": "官员",
+      "description": "林黛玉之父，已故，曾为扬州巡盐御史"
+    },
+    {
+      "id": 217,
+      "name": "薛蟠",
+      "age": 25,
+      "occupation": "商人",
+      "description": "薛家长子，商人出身，纨绔子弟"
+    },
+    {
+      "id": 219,
+      "name": "王夫人",
+      "age": 50,
+      "occupation": "夫人",
+      "description": "贾政之妻，贾宝玉生母，长期病重"
+    },
+    {
+      "id": 220,
+      "name": "邢夫人",
+      "age": 52,
+      "occupation": "夫人",
+      "description": "贾赦之妻，贾琏母亲，不受贾母喜爱"
+    },
+    {
+      "id": 221,
+      "name": "薛姨妈",
+      "age": 48,
+      "occupation": "妇女",
+      "description": "薛蟠之母，薛宝钗母亲，寄住荣国府"
+    },
+    {
+      "id": 222,
+      "name": "贾赦",
+      "age": 60,
+      "occupation": "公爷",
+      "description": "荣国府大公子，贾琏之父，贾政之兄"
+    }
+  ],
+  "relationships": [
+    {
+      "id": 1,
+      "source": 201,
+      "target": 202,
+      "type": "相爱"
+    },
+    {
+      "id": 2,
+      "source": 201,
+      "target": 203,
+      "type": "婚配"
+    },
+    {
+      "id": 3,
+      "source": 201,
+      "target": 206,
+      "type": "父子"
+    },
+    {
+      "id": 4,
+      "source": 201,
+      "target": 205,
+      "type": "祖孙"
+    },
+    {
+      "id": 5,
+      "source": 202,
+      "target": 207,
+      "type": "母子"
+    },
+    {
+      "id": 6,
+      "source": 202,
+      "target": 212,
+      "type": "主仆"
+    },
+    {
+      "id": 7,
+      "source": 203,
+      "target": 217,
+      "type": "兄妹"
+    },
+    {
+      "id": 8,
+      "source": 203,
+      "target": 221,
+      "type": "母子"
+    },
+    {
+      "id": 9,
+      "source": 204,
+      "target": 208,
+      "type": "夫妻"
+    },
+    {
+      "id": 10,
+      "source": 204,
+      "target": 205,
+      "type": "婆媳"
+    },
+    {
+      "id": 11,
+      "source": 204,
+      "target": 213,
+      "type": "主仆"
+    },
+    {
+      "id": 12,
+      "source": 205,
+      "target": 206,
+      "type": "母子"
+    },
+    {
+      "id": 13,
+      "source": 205,
+      "target": 222,
+      "type": "母子"
+    },
+    {
+      "id": 14,
+      "source": 206,
+      "target": 219,
+      "type": "夫妻"
+    },
+    {
+      "id": 15,
+      "source": 207,
+      "target": 216,
+      "type": "夫妻"
+    },
+    {
+      "id": 16,
+      "source": 208,
+      "target": 215,
+      "type": "父女"
+    },
+    {
+      "id": 17,
+      "source": 209,
+      "target": 210,
+      "type": "主仆"
+    },
+    {
+      "id": 18,
+      "source": 210,
+      "target": 201,
+      "type": "主仆"
+    },
+    {
+      "id": 19,
+      "source": 211,
+      "target": 201,
+      "type": "主仆"
+    },
+    {
+      "id": 21,
+      "source": 214,
+      "target": 217,
+      "type": "兄妹"
+    },
+    {
+      "id": 22,
+      "source": 214,
+      "target": 203,
+      "type": "姐妹"
+    },
+    {
+      "id": 22,
+      "source": 217,
+      "target": 221,
+      "type": "父子"
+    },
+    {
+      "id": 23,
+      "source": 219,
+      "target": 220,
+      "type": "妯娌"
+    },
+    {
+      "id": 24,
+      "source": 220,
+      "target": 208,
+      "type": "母子"
+    },
+    {
+      "id": 25,
+      "source": 221,
+      "target": 205,
+      "type": "朋友"
+    },
+    {
+      "id": 26,
+      "source": 222,
+      "target": 206,
+      "type": "兄弟"
+    },
+    {
+      "id": 29,
+      "source": 201,
+      "target": 214,
+      "type": "朋友"
+    },
+    {
+      "id": 30,
+      "source": 205,
+      "target": 207,
+      "type": "母女"
+    }
+  ]
+}

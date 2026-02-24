@@ -1,0 +1,187 @@
+/* 模态框和对话框样式 */
+
+/* 模态框遮罩 */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* 模态框对话框 */
+.modal-dialog {
+  background: #ffffff;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.15);
+  width: 90%;
+  max-width: 480px;
+  max-height: 85vh;
+  overflow: auto;
+  animation: modalSlide 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes modalSlide {
+  from {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.modal-dialog.modal-large {
+  max-width: 900px;
+}
+
+/* 模态框头部 */
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 24px;
+  border-bottom: 1px solid #e0e0e0;
+  font-weight: 700;
+  font-size: 16px;
+  background: #f8f9fa;
+  color: #333333;
+}
+
+/* 模态框内容 */
+.modal-body {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.modal-body .input-field {
+  width: 100%;
+}
+
+.modal-body .action-btn {
+  width: 100%;
+}
+
+/* 路径结果显示 */
+.path-result {
+  margin-top: 20px;
+  padding: 16px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* 路径查询错误提示 */
+.path-error {
+  margin-bottom: 16px;
+  padding: 12px 16px;
+  background: var(--danger-10);
+  border: 1.5px solid var(--danger-color);
+  border-radius: 10px;
+  color: var(--danger-color);
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  animation: shake 0.3s ease;
+}
+
+@keyframes shake {
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-5px);
+  }
+
+  75% {
+    transform: translateX(5px);
+  }
+}
+
+/* 路径查询标题 */
+.path-header {
+  font-weight: 700;
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e0e0e0;
+  font-size: 13px;
+  color: #0066cc;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* 路径节点显示 */
+.path-nodes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.path-node-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.node-name {
+  padding: 8px 14px;
+  background: var(--gradient-primary);
+  color: var(--text-white);
+  border-radius: 24px;
+  font-size: 13px;
+  font-weight: 600;
+  box-shadow: 0 4px 12px var(--accent-primary-3);
+  transition: all 0.3s ease;
+}
+
+.node-name:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px var(--accent-primary-4);
+}
+
+.path-arrow {
+  color: var(--accent-primary);
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0 4px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .modal-dialog {
+    width: 95%;
+    max-height: 90vh;
+  }
+}

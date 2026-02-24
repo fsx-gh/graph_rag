@@ -1,0 +1,465 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "occupation": "皇帝",
+      "description": "清朝第四位皇帝，在位61年",
+      "name": "康熙帝",
+      "age": 69,
+      "label": "康熙帝",
+      "centrality_degree": 13.0,
+      "centrality_betweenness": 0.6883116883116883,
+      "centrality_closeness": 0.5945945945945946,
+      "centrality_eigenvector": 0.5263157044652175,
+      "id": "4:eb781e61-6c16-465d-a055-496bc9829309:41"
+    },
+    {
+      "occupation": "皇帝",
+      "description": "康熙次子，清朝第五位皇帝",
+      "name": "雍正帝",
+      "age": 58,
+      "label": "雍正帝",
+      "centrality_degree": 6.0,
+      "centrality_betweenness": 0.354978354978355,
+      "centrality_closeness": 0.5641025641025641,
+      "centrality_eigenvector": 0.3902814429365279,
+      "id": "4:eb781e61-6c16-465d-a055-496bc9829309:42"
+    },
+    {
+      "occupation": "皇帝",
+      "description": "雍正之子，清朝第六位皇帝",
+      "name": "乾隆帝",
+      "age": 88,
+      "label": "乾隆帝",
+      "centrality_degree": 7.0,
+      "centrality_betweenness": 0.36147186147186144,
+      "centrality_closeness": 0.4782608695652174,
+      "centrality_eigenvector": 0.3398701138601677,
+      "id": "4:eb781e61-6c16-465d-a055-496bc9829309:43"
+    },
+    {
+      "occupation": "皇后",
+      "description": "康熙生母，辅佐康熙平定三藩",
+      "name": "孝庄皇后",
+      "age": 75,
+      "label": "孝庄皇后",
+      "centrality_degree": 1.0,
+      "centrality_betweenness": 0.0,
+      "centrality_closeness": 0.3793103448275862,
+      "centrality_eigenvector": 0.1278451970130228,
+      "id": "4:eb781e61-6c16-465d-a055-496bc9829309:44"
+    },
+    {
+      "occupation": "皇后",
+      "description": "康熙皇后，乾隆生母",
+      "name": "仁皇后",
+      "age": 40,
+      "label": "仁皇后",
+      "centrality_degree": 2.0,
+      "centrality_betweenness": 0.11904761904761904,
+      "centrality_closeness": 0.4888888888888889,
+      "centrality_eigenvector": 0.21040165751127332,
+      "id": "4:eb781e61-6c16-465d-a055-496bc9829309:45"
+    },
+    {
+      "occupation": "大臣",
+      "description": "清初权臣，被康熙擒获",
+      "name": "鳌拜",
+      "age": 75,
+      "label": "鳌拜",
+      "centrality_degree": 1.0,
+      "centrality_betweenness": 0.0,
+      "centrality_closeness": 0.3793103448275862,
+      "centrality_eigenvector": 0.1278451970130228,
+      "id": "4:eb781e61-6c16-465d-a055-496bc9829309:46"
+    },
+    {
+      "occupation": "大臣",
+      "description": "清初四大辅臣之一",
+      "name": "索尼",
+      "age": 72,
+      "label": "索尼",
+      "centrality_degree": 1.0,
+      "centrality_betweenness": 0.0,
+      "centrality_closeness": 0.3793103448275862,
+      "centrality_eigenvector": 0.1278451970130228,
+      "id": "4:eb781e61-6c16-465d-a055-496bc9829309:47"
+    },
+    {
+      "occupation": "将领",
+      "description": "三藩之乱中的参与者",
+      "name": "尚可喜",
+      "age": 75,
+      "label": "尚可喜",
+      "centrality_degree": 1.0,
+      "centrality_betweenness": 0.0,
+      "centrality_closeness": 0.3793103448275862,
+      "centrality_eigenvector": 0.1278451970130228,
+      "id": "4:eb781e61-6c16-465d-a055-496bc9829309:48"
+    },
+    {
+      "occupation": "将领",
+      "description": "三藩之乱中的参与者",
+      "name": "耿精忠",
+      "age": 60,
+      "label": "耿精忠",
+      "centrality_degree": 1.0,
+      "centrality_betweenness": 0.0,
+      "centrality_closeness": 0.3793103448275862,
+      "centrality_eigenvector": 0.1278451970130228,
+      "id": "4:eb781e61-6c16-465d-a055-496bc9829309:49"
+    },
+    {
+      "occupation": "大臣",
+      "description": "清初四大辅臣之一",
+      "name": "遏必隆",
+      "age": 68,
+      "label": "遏必隆",
+      "centrality_degree": 1.0,
+      "centrality_betweenness": 0.0,
+      "centrality_closeness": 0.3793103448275862,
+      "centrality_eigenvector": 0.1278451970130228,
+      "id": "4:eb781e61-6c16-465d-a055-496bc9829309:71"
+    },
+    {
+      "occupation": "王爷",
+      "description": "康熙之子",
+      "name": "陈王",
+      "age": 35,
+      "label": "陈王",
+      "centrality_degree": 1.0,
+      "centrality_betweenness": 0.0,
+      "centrality_closeness": 0.3793103448275862,
+      "centrality_eigenvector": 0.1278451970130228,
+      "id": "4:eb781e61-6c16-465d-a055-496bc9829309:72"
+    },
+    {
+      "occupation": "王爷",
+      "description": "康熙十四子",
+      "name": "胤禵",
+      "age": 40,
+      "label": "胤禵",
+      "centrality_degree": 2.0,
+      "centrality_betweenness": 0.0,
+      "centrality_closeness": 0.4583333333333333,
+      "centrality_eigenvector": 0.2226468674542373,
+      "id": "4:eb781e61-6c16-465d-a055-496bc9829309:73"
+    },
+    {
+      "occupation": "大臣",
+      "description": "康熙朝著名相臣",
+      "name": "李光地",
+      "age": 62,
+      "label": "李光地",
+      "centrality_degree": 2.0,
+      "centrality_betweenness": 0.032467532467532464,
+      "centrality_closeness": 0.4489795918367347,
+      "centrality_eigenvector": 0.19281044416050896,
+      "id": "4:eb781e61-6c16-465d-a055-496bc9829309:74"
+    },
+    {
+      "occupation": "大臣",
+      "description": "雍正乾隆时期名臣",
+      "name": "张廷玉",
+      "age": 55,
+      "label": "张廷玉",
+      "centrality_degree": 4.0,
+      "centrality_betweenness": 0.06277056277056277,
+      "centrality_closeness": 0.44,
+      "centrality_eigenvector": 0.26745024934103273,
+      "id": "4:eb781e61-6c16-465d-a055-496bc9829309:75"
+    },
+    {
+      "occupation": "官员",
+      "description": "雍正时期河南巡抚",
+      "name": "田文镜",
+      "age": 50,
+      "label": "田文镜",
+      "centrality_degree": 2.0,
+      "centrality_betweenness": 0.0,
+      "centrality_closeness": 0.3728813559322034,
+      "centrality_eigenvector": 0.12521781921020425,
+      "id": "4:eb781e61-6c16-465d-a055-496bc9829309:76"
+    },
+    {
+      "occupation": "官员",
+      "description": "雍正时期浙江巡抚",
+      "name": "李卫",
+      "age": 48,
+      "label": "李卫",
+      "centrality_degree": 2.0,
+      "centrality_betweenness": 0.0,
+      "centrality_closeness": 0.3728813559322034,
+      "centrality_eigenvector": 0.12521781921020403,
+      "id": "4:eb781e61-6c16-465d-a055-496bc9829309:77"
+    },
+    {
+      "occupation": "大臣",
+      "description": "乾隆宠臣，后被抄家",
+      "name": "和珅",
+      "age": 42,
+      "label": "和珅",
+      "centrality_degree": 2.0,
+      "centrality_betweenness": 0.0,
+      "centrality_closeness": 0.3384615384615385,
+      "centrality_eigenvector": 0.11081580311558055,
+      "id": "4:eb781e61-6c16-465d-a055-496bc9829309:78"
+    },
+    {
+      "occupation": "学者",
+      "description": "乾隆时期文人，《四库全书》总纂官",
+      "name": "纪晓岚",
+      "age": 60,
+      "label": "纪晓岚",
+      "centrality_degree": 2.0,
+      "centrality_betweenness": 0.0,
+      "centrality_closeness": 0.3333333333333333,
+      "centrality_eigenvector": 0.12581378181749484,
+      "id": "4:eb781e61-6c16-465d-a055-496bc9829309:79"
+    },
+    {
+      "occupation": "大臣",
+      "description": "乾隆朝名臣",
+      "name": "刘墉",
+      "age": 65,
+      "label": "刘墉",
+      "centrality_degree": 3.0,
+      "centrality_betweenness": 0.004329004329004329,
+      "centrality_closeness": 0.34375,
+      "centrality_eigenvector": 0.17808261925629673,
+      "id": "4:eb781e61-6c16-465d-a055-496bc9829309:80"
+    },
+    {
+      "occupation": "大臣",
+      "description": "乾隆时期将领，平定大小和卓之乱",
+      "name": "傅恒",
+      "age": 55,
+      "label": "傅恒",
+      "centrality_degree": 3.0,
+      "centrality_betweenness": 0.09090909090909091,
+      "centrality_closeness": 0.34375,
+      "centrality_eigenvector": 0.1163386358257087,
+      "id": "4:eb781e61-6c16-465d-a055-496bc9829309:81"
+    },
+    {
+      "occupation": "将军",
+      "description": "女性将领",
+      "name": "木兰",
+      "age": 25,
+      "label": "木兰",
+      "centrality_degree": 1.0,
+      "centrality_betweenness": 0.0,
+      "centrality_closeness": 0.25882352941176473,
+      "centrality_eigenvector": 0.02825934261733006,
+      "id": "4:eb781e61-6c16-465d-a055-496bc9829309:82"
+    },
+    {
+      "occupation": "将领",
+      "description": "明末清初将领，驱荷复台",
+      "name": "郑成功",
+      "age": 39,
+      "label": "郑成功",
+      "centrality_degree": 1.0,
+      "centrality_betweenness": 0.0,
+      "centrality_closeness": 0.3793103448275862,
+      "centrality_eigenvector": 0.1278451970130228,
+      "id": "4:eb781e61-6c16-465d-a055-496bc9829309:83"
+    },
+    {
+      "occupation": "将领",
+      "description": "明末清初将领，引清入关者",
+      "name": "吴三桂",
+      "age": 70,
+      "label": "吴三桂",
+      "centrality_degree": 1.0,
+      "centrality_betweenness": 0.0,
+      "centrality_closeness": 0.3793103448275862,
+      "centrality_eigenvector": 0.1278451970130228,
+      "id": "4:eb781e61-6c16-465d-a055-496bc9829309:84"
+    }
+  ],
+  "links": [
+    {
+      "type": "母子",
+      "label": "RELATES",
+      "source": "4:eb781e61-6c16-465d-a055-496bc9829309:41",
+      "target": "4:eb781e61-6c16-465d-a055-496bc9829309:44"
+    },
+    {
+      "type": "夫妻",
+      "label": "RELATES",
+      "source": "4:eb781e61-6c16-465d-a055-496bc9829309:41",
+      "target": "4:eb781e61-6c16-465d-a055-496bc9829309:45"
+    },
+    {
+      "type": "父子",
+      "label": "RELATES",
+      "source": "4:eb781e61-6c16-465d-a055-496bc9829309:41",
+      "target": "4:eb781e61-6c16-465d-a055-496bc9829309:42"
+    },
+    {
+      "type": "君臣",
+      "label": "RELATES",
+      "source": "4:eb781e61-6c16-465d-a055-496bc9829309:41",
+      "target": "4:eb781e61-6c16-465d-a055-496bc9829309:46"
+    },
+    {
+      "type": "君臣",
+      "label": "RELATES",
+      "source": "4:eb781e61-6c16-465d-a055-496bc9829309:41",
+      "target": "4:eb781e61-6c16-465d-a055-496bc9829309:47"
+    },
+    {
+      "type": "君臣",
+      "label": "RELATES",
+      "source": "4:eb781e61-6c16-465d-a055-496bc9829309:41",
+      "target": "4:eb781e61-6c16-465d-a055-496bc9829309:48"
+    },
+    {
+      "type": "君臣",
+      "label": "RELATES",
+      "source": "4:eb781e61-6c16-465d-a055-496bc9829309:41",
+      "target": "4:eb781e61-6c16-465d-a055-496bc9829309:49"
+    },
+    {
+      "type": "君臣",
+      "label": "RELATES",
+      "source": "4:eb781e61-6c16-465d-a055-496bc9829309:41",
+      "target": "4:eb781e61-6c16-465d-a055-496bc9829309:71"
+    },
+    {
+      "type": "父子",
+      "label": "RELATES",
+      "source": "4:eb781e61-6c16-465d-a055-496bc9829309:41",
+      "target": "4:eb781e61-6c16-465d-a055-496bc9829309:72"
+    },
+    {
+      "type": "父子",
+      "label": "RELATES",
+      "source": "4:eb781e61-6c16-465d-a055-496bc9829309:41",
+      "target": "4:eb781e61-6c16-465d-a055-496bc9829309:73"
+    },
+    {
+      "type": "君臣",
+      "label": "RELATES",
+      "source": "4:eb781e61-6c16-465d-a055-496bc9829309:41",
+      "target": "4:eb781e61-6c16-465d-a055-496bc9829309:74"
+    },
+    {
+      "type": "君臣",
+      "label": "RELATES",
+      "source": "4:eb781e61-6c16-465d-a055-496bc9829309:41",
+      "target": "4:eb781e61-6c16-465d-a055-496bc9829309:83"
+    },
+    {
+      "type": "君臣",
+      "label": "RELATES",
+      "source": "4:eb781e61-6c16-465d-a055-496bc9829309:41",
+      "target": "4:eb781e61-6c16-465d-a055-496bc9829309:84"
+    },
+    {
+      "type": "父子",
+      "label": "RELATES",
+      "source": "4:eb781e61-6c16-465d-a055-496bc9829309:42",
+      "target": "4:eb781e61-6c16-465d-a055-496bc9829309:43"
+    },
+    {
+      "type": "兄弟",
+      "label": "RELATES",
+      "source": "4:eb781e61-6c16-465d-a055-496bc9829309:42",
+      "target": "4:eb781e61-6c16-465d-a055-496bc9829309:73"
+    },
+    {
+      "type": "君臣",
+      "label": "RELATES",
+      "source": "4:eb781e61-6c16-465d-a055-496bc9829309:42",
+      "target": "4:eb781e61-6c16-465d-a055-496bc9829309:75"
+    },
+    {
+      "type": "君臣",
+      "label": "RELATES",
+      "source": "4:eb781e61-6c16-465d-a055-496bc9829309:42",
+      "target": "4:eb781e61-6c16-465d-a055-496bc9829309:76"
+    },
+    {
+      "type": "君臣",
+      "label": "RELATES",
+      "source": "4:eb781e61-6c16-465d-a055-496bc9829309:42",
+      "target": "4:eb781e61-6c16-465d-a055-496bc9829309:77"
+    },
+    {
+      "type": "母子",
+      "label": "RELATES",
+      "source": "4:eb781e61-6c16-465d-a055-496bc9829309:43",
+      "target": "4:eb781e61-6c16-465d-a055-496bc9829309:45"
+    },
+    {
+      "type": "君臣",
+      "label": "RELATES",
+      "source": "4:eb781e61-6c16-465d-a055-496bc9829309:43",
+      "target": "4:eb781e61-6c16-465d-a055-496bc9829309:75"
+    },
+    {
+      "type": "君臣",
+      "label": "RELATES",
+      "source": "4:eb781e61-6c16-465d-a055-496bc9829309:43",
+      "target": "4:eb781e61-6c16-465d-a055-496bc9829309:78"
+    },
+    {
+      "type": "君臣",
+      "label": "RELATES",
+      "source": "4:eb781e61-6c16-465d-a055-496bc9829309:43",
+      "target": "4:eb781e61-6c16-465d-a055-496bc9829309:79"
+    },
+    {
+      "type": "君臣",
+      "label": "RELATES",
+      "source": "4:eb781e61-6c16-465d-a055-496bc9829309:43",
+      "target": "4:eb781e61-6c16-465d-a055-496bc9829309:80"
+    },
+    {
+      "type": "君臣",
+      "label": "RELATES",
+      "source": "4:eb781e61-6c16-465d-a055-496bc9829309:43",
+      "target": "4:eb781e61-6c16-465d-a055-496bc9829309:81"
+    },
+    {
+      "type": "朋友",
+      "label": "RELATES",
+      "source": "4:eb781e61-6c16-465d-a055-496bc9829309:74",
+      "target": "4:eb781e61-6c16-465d-a055-496bc9829309:75"
+    },
+    {
+      "type": "同事",
+      "label": "RELATES",
+      "source": "4:eb781e61-6c16-465d-a055-496bc9829309:75",
+      "target": "4:eb781e61-6c16-465d-a055-496bc9829309:80"
+    },
+    {
+      "type": "同事",
+      "label": "RELATES",
+      "source": "4:eb781e61-6c16-465d-a055-496bc9829309:76",
+      "target": "4:eb781e61-6c16-465d-a055-496bc9829309:77"
+    },
+    {
+      "type": "同事",
+      "label": "RELATES",
+      "source": "4:eb781e61-6c16-465d-a055-496bc9829309:78",
+      "target": "4:eb781e61-6c16-465d-a055-496bc9829309:81"
+    },
+    {
+      "type": "朋友",
+      "label": "RELATES",
+      "source": "4:eb781e61-6c16-465d-a055-496bc9829309:79",
+      "target": "4:eb781e61-6c16-465d-a055-496bc9829309:80"
+    },
+    {
+      "type": "同事",
+      "label": "RELATES",
+      "source": "4:eb781e61-6c16-465d-a055-496bc9829309:81",
+      "target": "4:eb781e61-6c16-465d-a055-496bc9829309:82"
+    }
+  ]
+}

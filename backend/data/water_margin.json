@@ -1,0 +1,687 @@
+{
+  "name": "水浒传",
+  "description": "四大名著之一，讲述宋江等108位好汉在梁山聚义，后接受朝廷招安，征战四方的故事",
+  "nodes": [
+    {
+      "id": 201,
+      "name": "宋江",
+      "age": 38,
+      "occupation": "梁山首领/押司",
+      "description": "字公明，绰号及时雨、呼保义，梁山一百单八将之首，一心渴望招安"
+    },
+    {
+      "id": 202,
+      "name": "卢俊义",
+      "age": 35,
+      "occupation": "梁山副首领/员外",
+      "description": "绰号玉麒麟，武艺高强，河北大名府富豪，被吴用设计逼上梁山"
+    },
+    {
+      "id": 203,
+      "name": "吴用",
+      "age": 36,
+      "occupation": "梁山军师/学究",
+      "description": "字学究，绰号智多星，足智多谋，为梁山出谋划策，核心智囊"
+    },
+    {
+      "id": 204,
+      "name": "林冲",
+      "age": 34,
+      "occupation": "梁山五虎将/禁军教头",
+      "description": "绰号豹子头，原东京八十万禁军教头，被高俅陷害逼上梁山"
+    },
+    {
+      "id": 205,
+      "name": "武松",
+      "age": 28,
+      "occupation": "梁山步军头领/都头",
+      "description": "绰号行者，景阳冈打虎成名，血溅鸳鸯楼后落草二龙山，后归梁山"
+    },
+    {
+      "id": 206,
+      "name": "鲁智深",
+      "age": 30,
+      "occupation": "梁山步军头领/提辖",
+      "description": "绰号花和尚，原名鲁达，三拳打死镇关西，后出家，与武松结义"
+    },
+    {
+      "id": 207,
+      "name": "李逵",
+      "age": 25,
+      "occupation": "梁山步军头领/家仆",
+      "description": "绰号黑旋风，性格鲁莽勇猛，对宋江忠心耿耿，手持双板斧"
+    },
+    {
+      "id": 208,
+      "name": "杨志",
+      "age": 32,
+      "occupation": "梁山马军头领/制使",
+      "description": "绰号青面兽，杨家将后人，失陷花石纲、生辰纲后落草二龙山"
+    },
+    {
+      "id": 209,
+      "name": "公孙胜",
+      "age": 33,
+      "occupation": "梁山军师/道士",
+      "description": "绰号入云龙，通晓道法，与吴用一同谋划智取生辰纲"
+    },
+    {
+      "id": 210,
+      "name": "关胜",
+      "age": 31,
+      "occupation": "梁山五虎将/巡检",
+      "description": "绰号大刀，关羽后人，武艺超群，被朝廷派往征讨梁山，后归降"
+    },
+    {
+      "id": 211,
+      "name": "秦明",
+      "age": 30,
+      "occupation": "梁山五虎将/统制",
+      "description": "绰号霹雳火，性格急躁，原青州兵马统制，被宋江设计归降梁山"
+    },
+    {
+      "id": 212,
+      "name": "呼延灼",
+      "age": 37,
+      "occupation": "梁山五虎将/指挥使",
+      "description": "绰号双鞭，呼延赞后人，原朝廷指挥使，征梁山失利后归降"
+    },
+    {
+      "id": 213,
+      "name": "花荣",
+      "age": 27,
+      "occupation": "梁山马军头领/知寨",
+      "description": "绰号小李广，箭术超群，原清风寨武知寨，与宋江结为兄弟"
+    },
+    {
+      "id": 214,
+      "name": "柴进",
+      "age": 29,
+      "occupation": "梁山钱粮头领/贵族",
+      "description": "绰号小旋风，后周皇室后裔，家中有丹书铁券，常接济好汉"
+    },
+    {
+      "id": 215,
+      "name": "晁盖",
+      "age": 40,
+      "occupation": "前梁山首领/保正",
+      "description": "绰号托塔天王，东溪村保正，智取生辰纲后率众投奔梁山，后中箭身亡"
+    },
+    {
+      "id": 216,
+      "name": "高俅",
+      "age": 50,
+      "occupation": "太尉/奸臣",
+      "description": "北宋权臣，官至太尉，陷害林冲、宋江等人，是梁山好汉的主要仇敌"
+    },
+    {
+      "id": 217,
+      "name": "宋徽宗",
+      "age": 32,
+      "occupation": "北宋皇帝",
+      "description": "北宋第八位皇帝，昏庸无能，宠信高俅等奸臣，最终批准梁山招安"
+    },
+    {
+      "id": 218,
+      "name": "蔡京",
+      "age": 65,
+      "occupation": "太师/奸臣",
+      "description": "北宋六贼之首，官至太师，与高俅勾结，打压梁山好汉"
+    },
+    {
+      "id": 219,
+      "name": "童贯",
+      "age": 58,
+      "occupation": "宦官/奸臣",
+      "description": "北宋六贼之一，官至枢密使，曾率军征讨梁山，惨遭失利"
+    },
+    {
+      "id": 220,
+      "name": "阎婆惜",
+      "age": 18,
+      "occupation": "宋江外室",
+      "description": "宋江的外宅，因发现宋江与梁山勾结的书信，被宋江怒杀"
+    },
+    {
+      "id": 221,
+      "name": "潘金莲",
+      "age": 22,
+      "occupation": "武大郎妻子",
+      "description": "武大郎之妻，与西门庆通奸，毒杀武大郎，被武松所杀"
+    },
+    {
+      "id": 222,
+      "name": "武大郎",
+      "age": 35,
+      "occupation": "炊饼小贩",
+      "description": "武松兄长，身材矮小，为人忠厚，被潘金莲与西门庆毒杀"
+    },
+    {
+      "id": 223,
+      "name": "西门庆",
+      "age": 28,
+      "occupation": "富商/恶霸",
+      "description": "阳谷县恶霸，与潘金莲通奸，合谋毒杀武大郎，被武松打死"
+    },
+    {
+      "id": 226,
+      "name": "孙二娘",
+      "age": 26,
+      "occupation": "梁山酒店头领/店主",
+      "description": "绰号母夜叉，张青之妻，在十字坡开黑店，后随夫投奔梁山"
+    },
+    {
+      "id": 227,
+      "name": "张青",
+      "age": 29,
+      "occupation": "梁山酒店头领/店主",
+      "description": "绰号菜园子，孙二娘丈夫，十字坡黑店店主，后归降梁山"
+    },
+    {
+      "id": 228,
+      "name": "燕青",
+      "age": 24,
+      "occupation": "梁山步军头领/家仆",
+      "description": "绰号浪子，卢俊义心腹家仆，多才多艺，后随卢俊义上梁山"
+    },
+    {
+      "id": 229,
+      "name": "戴宗",
+      "age": 30,
+      "occupation": "梁山总探声息头领/节级",
+      "description": "绰号神行太保，能日行八百里，原江州两院押牢节级，与宋江交好"
+    },
+    {
+      "id": 230,
+      "name": "阮小二",
+      "age": 30,
+      "occupation": "梁山水军头领/渔民",
+      "description": "绰号立地太岁，阮氏三雄之一，参与智取生辰纲，后投奔梁山"
+    },
+    {
+      "id": 231,
+      "name": "阮小五",
+      "age": 27,
+      "occupation": "梁山水军头领/渔民",
+      "description": "绰号短命二郎，阮氏三雄之一，参与智取生辰纲，后归降梁山"
+    },
+    {
+      "id": 232,
+      "name": "阮小七",
+      "age": 24,
+      "occupation": "梁山水军头领/渔民",
+      "description": "绰号活阎罗，阮氏三雄之一，参与智取生辰纲，后投奔梁山"
+    },
+    {
+      "id": 233,
+      "name": "扈三娘",
+      "age": 20,
+      "occupation": "梁山女将/扈家庄小姐",
+      "description": "绰号一丈青，扈家庄千金，武艺高强，被林冲擒获后嫁与王英"
+    },
+    {
+      "id": 234,
+      "name": "王英",
+      "age": 28,
+      "occupation": "梁山马军头领/山大王",
+      "description": "绰号矮脚虎，原清风山大王，好色成性，后娶扈三娘为妻"
+    },
+    {
+      "id": 235,
+      "name": "李应",
+      "age": 35,
+      "occupation": "梁山钱粮头领/庄主",
+      "description": "绰号扑天雕，李家庄庄主，武艺高强，被吴用设计逼上梁山"
+    },
+    {
+      "id": 236,
+      "name": "朱仝",
+      "age": 32,
+      "occupation": "梁山马军头领/都头",
+      "description": "绰号美髯公，原郓城县马兵都头，曾搭救宋江、晁盖，后被逼上梁山"
+    },
+    {
+      "id": 237,
+      "name": "雷横",
+      "age": 31,
+      "occupation": "梁山步军头领/都头",
+      "description": "绰号插翅虎，原郓城县步兵都头，与朱仝交好，后归降梁山"
+    },
+    {
+      "id": 238,
+      "name": "史进",
+      "age": 20,
+      "occupation": "梁山马军头领/庄主",
+      "description": "绰号九纹龙，史家庄少庄主，拜王进为师，后落草少华山，归降梁山"
+    },
+    {
+      "id": 240,
+      "name": "高俅之子",
+      "age": 20,
+      "occupation": "恶少",
+      "description": "高俅之子，仗势欺人，调戏林冲妻子，是林冲被陷害的导火索之一"
+    }
+  ],
+  "relationships": [
+    {
+      "id": 1,
+      "source": 201,
+      "target": 202,
+      "type": "梁山主副"
+    },
+    {
+      "id": 2,
+      "source": 201,
+      "target": 203,
+      "type": "君臣/智囊"
+    },
+    {
+      "id": 3,
+      "source": 201,
+      "target": 207,
+      "type": "主仆/心腹"
+    },
+    {
+      "id": 4,
+      "source": 201,
+      "target": 213,
+      "type": "结义兄弟"
+    },
+    {
+      "id": 5,
+      "source": 201,
+      "target": 215,
+      "type": "后继者"
+    },
+    {
+      "id": 6,
+      "source": 201,
+      "target": 220,
+      "type": "外室"
+    },
+    {
+      "id": 7,
+      "source": 201,
+      "target": 216,
+      "type": "仇敌"
+    },
+    {
+      "id": 8,
+      "source": 201,
+      "target": 217,
+      "type": "君臣（招安后）"
+    },
+    {
+      "id": 9,
+      "source": 202,
+      "target": 228,
+      "type": "主仆"
+    },
+    {
+      "id": 10,
+      "source": 203,
+      "target": 209,
+      "type": "梁山军师搭档"
+    },
+    {
+      "id": 11,
+      "source": 203,
+      "target": 215,
+      "type": "辅佐者"
+    },
+    {
+      "id": 12,
+      "source": 204,
+      "target": 216,
+      "type": "仇敌"
+    },
+    {
+      "id": 13,
+      "source": 204,
+      "target": 240,
+      "type": "仇敌"
+    },
+    {
+      "id": 14,
+      "source": 205,
+      "target": 206,
+      "type": "结义兄弟"
+    },
+    {
+      "id": 15,
+      "source": 205,
+      "target": 222,
+      "type": "兄弟"
+    },
+    {
+      "id": 16,
+      "source": 205,
+      "target": 221,
+      "type": "叔嫂（仇人）"
+    },
+    {
+      "id": 17,
+      "source": 205,
+      "target": 223,
+      "type": "仇敌/击杀者"
+    },
+    {
+      "id": 18,
+      "source": 206,
+      "target": 208,
+      "type": "二龙山同僚"
+    },
+    {
+      "id": 19,
+      "source": 206,
+      "target": 205,
+      "type": "结义兄弟"
+    },
+    {
+      "id": 20,
+      "source": 208,
+      "target": 206,
+      "type": "二龙山同僚"
+    },
+    {
+      "id": 21,
+      "source": 203,
+      "target": 215,
+      "type": "共谋（智取生辰纲）"
+    },
+    {
+      "id": 22,
+      "source": 215,
+      "target": 230,
+      "type": "带头者"
+    },
+    {
+      "id": 23,
+      "source": 230,
+      "target": 231,
+      "type": "兄弟"
+    },
+    {
+      "id": 24,
+      "source": 231,
+      "target": 232,
+      "type": "兄弟"
+    },
+    {
+      "id": 25,
+      "source": 230,
+      "target": 232,
+      "type": "兄弟"
+    },
+    {
+      "id": 26,
+      "source": 226,
+      "target": 227,
+      "type": "夫妻"
+    },
+    {
+      "id": 27,
+      "source": 233,
+      "target": 234,
+      "type": "夫妻"
+    },
+    {
+      "id": 28,
+      "source": 204,
+      "target": 233,
+      "type": "擒获者"
+    },
+    {
+      "id": 29,
+      "source": 201,
+      "target": 229,
+      "type": "好友"
+    },
+    {
+      "id": 30,
+      "source": 236,
+      "target": 237,
+      "type": "同僚/兄弟"
+    },
+    {
+      "id": 31,
+      "source": 236,
+      "target": 201,
+      "type": "搭救者"
+    },
+    {
+      "id": 32,
+      "source": 236,
+      "target": 215,
+      "type": "搭救者"
+    },
+    {
+      "id": 33,
+      "source": 216,
+      "target": 218,
+      "type": "同党"
+    },
+    {
+      "id": 34,
+      "source": 216,
+      "target": 219,
+      "type": "同党"
+    },
+    {
+      "id": 35,
+      "source": 217,
+      "target": 216,
+      "type": "宠信"
+    },
+    {
+      "id": 36,
+      "source": 217,
+      "target": 218,
+      "type": "宠信"
+    },
+    {
+      "id": 37,
+      "source": 202,
+      "target": 201,
+      "type": "辅佐者"
+    },
+    {
+      "id": 38,
+      "source": 203,
+      "target": 201,
+      "type": "辅佐者"
+    },
+    {
+      "id": 39,
+      "source": 205,
+      "target": 226,
+      "type": "好友"
+    },
+    {
+      "id": 40,
+      "source": 205,
+      "target": 227,
+      "type": "好友"
+    },
+    {
+      "id": 41,
+      "source": 215,
+      "target": 230,
+      "type": "共谋（智取生辰纲）"
+    },
+    {
+      "id": 42,
+      "source": 215,
+      "target": 231,
+      "type": "共谋（智取生辰纲）"
+    },
+    {
+      "id": 43,
+      "source": 215,
+      "target": 232,
+      "type": "共谋（智取生辰纲）"
+    },
+    {
+      "id": 44,
+      "source": 215,
+      "target": 203,
+      "type": "共谋（智取生辰纲）"
+    },
+    {
+      "id": 45,
+      "source": 215,
+      "target": 209,
+      "type": "共谋（智取生辰纲）"
+    },
+    {
+      "id": 46,
+      "source": 233,
+      "target": 234,
+      "type": "夫妻"
+    },
+    {
+      "id": 47,
+      "source": 201,
+      "target": 238,
+      "type": "赏识者"
+    },
+    {
+      "id": 48,
+      "source": 204,
+      "target": 201,
+      "type": "梁山同僚"
+    },
+    {
+      "id": 49,
+      "source": 205,
+      "target": 201,
+      "type": "梁山同僚"
+    },
+    {
+      "id": 50,
+      "source": 206,
+      "target": 201,
+      "type": "梁山同僚"
+    },
+    {
+      "id": 51,
+      "source": 203,
+      "target": 235,
+      "type": "设计逼降者"
+    },
+    {
+      "id": 52,
+      "source": 235,
+      "target": 201,
+      "type": "梁山同僚/辅佐者"
+    },
+    {
+      "id": 53,
+      "source": 227,
+      "target": 226,
+      "type": "夫妻"
+    },
+    {
+      "id": 54,
+      "source": 227,
+      "target": 201,
+      "type": "梁山同僚"
+    },
+    {
+      "id": 55,
+      "source": 226,
+      "target": 201,
+      "type": "梁山同僚"
+    },
+    {
+      "id": 56,
+      "source": 228,
+      "target": 202,
+      "type": "辅佐者"
+    },
+    {
+      "id": 57,
+      "source": 228,
+      "target": 201,
+      "type": "梁山同僚"
+    },
+    {
+      "id": 58,
+      "source": 229,
+      "target": 201,
+      "type": "辅佐者"
+    },
+    {
+      "id": 59,
+      "source": 234,
+      "target": 201,
+      "type": "梁山同僚"
+    },
+    {
+      "id": 60,
+      "source": 233,
+      "target": 201,
+      "type": "梁山同僚"
+    },
+    {
+      "id": 61,
+      "source": 236,
+      "target": 201,
+      "type": "梁山同僚"
+    },
+    {
+      "id": 62,
+      "source": 237,
+      "target": 201,
+      "type": "梁山同僚"
+    },
+    {
+      "id": 63,
+      "source": 238,
+      "target": 201,
+      "type": "梁山同僚"
+    },
+    {
+      "id": 64,
+      "source": 209,
+      "target": 201,
+      "type": "梁山同僚/军师"
+    },
+    {
+      "id": 65,
+      "source": 210,
+      "target": 201,
+      "type": "梁山同僚/五虎将"
+    },
+    {
+      "id": 66,
+      "source": 211,
+      "target": 201,
+      "type": "梁山同僚/五虎将"
+    },
+    {
+      "id": 67,
+      "source": 212,
+      "target": 201,
+      "type": "梁山同僚/五虎将"
+    },
+    {
+      "id": 68,
+      "source": 214,
+      "target": 201,
+      "type": "梁山同僚/接济者"
+    },
+    {
+      "id": 69,
+      "source": 218,
+      "target": 217,
+      "type": "君臣"
+    },
+    {
+      "id": 70,
+      "source": 219,
+      "target": 217,
+      "type": "君臣"
+    }
+  ]
+}

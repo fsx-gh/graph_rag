@@ -1,0 +1,347 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "name": "康熙帝",
+      "age": 69,
+      "occupation": "皇帝",
+      "description": "清朝第四位皇帝，在位61年"
+    },
+    {
+      "id": 2,
+      "name": "雍正帝",
+      "age": 58,
+      "occupation": "皇帝",
+      "description": "康熙次子，清朝第五位皇帝"
+    },
+    {
+      "id": 3,
+      "name": "乾隆帝",
+      "age": 88,
+      "occupation": "皇帝",
+      "description": "雍正之子，清朝第六位皇帝"
+    },
+    {
+      "id": 4,
+      "name": "孝庄皇后",
+      "age": 75,
+      "occupation": "皇后",
+      "description": "康熙生母，辅佐康熙平定三藩"
+    },
+    {
+      "id": 5,
+      "name": "仁皇后",
+      "age": 40,
+      "occupation": "皇后",
+      "description": "康熙皇后，乾隆生母"
+    },
+    {
+      "id": 6,
+      "name": "鳌拜",
+      "age": 75,
+      "occupation": "大臣",
+      "description": "清初权臣，被康熙擒获"
+    },
+    {
+      "id": 7,
+      "name": "索尼",
+      "age": 72,
+      "occupation": "大臣",
+      "description": "清初四大辅臣之一"
+    },
+    {
+      "id": 8,
+      "name": "遏必隆",
+      "age": 68,
+      "occupation": "大臣",
+      "description": "清初四大辅臣之一"
+    },
+    {
+      "id": 9,
+      "name": "陈王",
+      "age": 35,
+      "occupation": "王爷",
+      "description": "康熙之子"
+    },
+    {
+      "id": 10,
+      "name": "胤禵",
+      "age": 40,
+      "occupation": "王爷",
+      "description": "康熙十四子"
+    },
+    {
+      "id": 11,
+      "name": "李光地",
+      "age": 62,
+      "occupation": "大臣",
+      "description": "康熙朝著名相臣"
+    },
+    {
+      "id": 12,
+      "name": "张廷玉",
+      "age": 55,
+      "occupation": "大臣",
+      "description": "雍正乾隆时期名臣"
+    },
+    {
+      "id": 13,
+      "name": "田文镜",
+      "age": 50,
+      "occupation": "官员",
+      "description": "雍正时期河南巡抚"
+    },
+    {
+      "id": 14,
+      "name": "李卫",
+      "age": 48,
+      "occupation": "官员",
+      "description": "雍正时期浙江巡抚"
+    },
+    {
+      "id": 15,
+      "name": "和珅",
+      "age": 42,
+      "occupation": "大臣",
+      "description": "乾隆宠臣，后被抄家"
+    },
+    {
+      "id": 16,
+      "name": "纪晓岚",
+      "age": 60,
+      "occupation": "学者",
+      "description": "乾隆时期文人，《四库全书》总纂官"
+    },
+    {
+      "id": 17,
+      "name": "刘墉",
+      "age": 65,
+      "occupation": "大臣",
+      "description": "乾隆朝名臣"
+    },
+    {
+      "id": 18,
+      "name": "傅恒",
+      "age": 55,
+      "occupation": "大臣",
+      "description": "乾隆时期将领，平定大小和卓之乱"
+    },
+    {
+      "id": 19,
+      "name": "木兰",
+      "age": 25,
+      "occupation": "将军",
+      "description": "女性将领"
+    },
+    {
+      "id": 20,
+      "name": "郑成功",
+      "age": 39,
+      "occupation": "将领",
+      "description": "明末清初将领，驱荷复台"
+    },
+    {
+      "id": 21,
+      "name": "吴三桂",
+      "age": 70,
+      "occupation": "将领",
+      "description": "明末清初将领，引清入关者"
+    },
+    {
+      "id": 22,
+      "name": "尚可喜",
+      "age": 75,
+      "occupation": "将领",
+      "description": "三藩之乱中的参与者"
+    },
+    {
+      "id": 23,
+      "name": "耿精忠",
+      "age": 60,
+      "occupation": "将领",
+      "description": "三藩之乱中的参与者"
+    }
+  ],
+  "relationships": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 2,
+      "type": "父子"
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 3,
+      "type": "父子"
+    },
+    {
+      "id": 3,
+      "source": 4,
+      "target": 1,
+      "type": "母子"
+    },
+    {
+      "id": 4,
+      "source": 5,
+      "target": 1,
+      "type": "夫妻"
+    },
+    {
+      "id": 5,
+      "source": 5,
+      "target": 3,
+      "type": "母子"
+    },
+    {
+      "id": 6,
+      "source": 1,
+      "target": 6,
+      "type": "君臣"
+    },
+    {
+      "id": 7,
+      "source": 1,
+      "target": 7,
+      "type": "君臣"
+    },
+    {
+      "id": 8,
+      "source": 1,
+      "target": 8,
+      "type": "君臣"
+    },
+    {
+      "id": 9,
+      "source": 1,
+      "target": 9,
+      "type": "父子"
+    },
+    {
+      "id": 10,
+      "source": 1,
+      "target": 10,
+      "type": "父子"
+    },
+    {
+      "id": 11,
+      "source": 1,
+      "target": 11,
+      "type": "君臣"
+    },
+    {
+      "id": 12,
+      "source": 2,
+      "target": 12,
+      "type": "君臣"
+    },
+    {
+      "id": 13,
+      "source": 2,
+      "target": 13,
+      "type": "君臣"
+    },
+    {
+      "id": 14,
+      "source": 2,
+      "target": 14,
+      "type": "君臣"
+    },
+    {
+      "id": 15,
+      "source": 3,
+      "target": 12,
+      "type": "君臣"
+    },
+    {
+      "id": 16,
+      "source": 3,
+      "target": 15,
+      "type": "君臣"
+    },
+    {
+      "id": 17,
+      "source": 3,
+      "target": 16,
+      "type": "君臣"
+    },
+    {
+      "id": 18,
+      "source": 3,
+      "target": 17,
+      "type": "君臣"
+    },
+    {
+      "id": 19,
+      "source": 3,
+      "target": 18,
+      "type": "君臣"
+    },
+    {
+      "id": 20,
+      "source": 12,
+      "target": 17,
+      "type": "同事"
+    },
+    {
+      "id": 21,
+      "source": 13,
+      "target": 14,
+      "type": "同事"
+    },
+    {
+      "id": 22,
+      "source": 15,
+      "target": 18,
+      "type": "同事"
+    },
+    {
+      "id": 23,
+      "source": 1,
+      "target": 20,
+      "type": "君臣"
+    },
+    {
+      "id": 24,
+      "source": 1,
+      "target": 21,
+      "type": "君臣"
+    },
+    {
+      "id": 25,
+      "source": 1,
+      "target": 22,
+      "type": "君臣"
+    },
+    {
+      "id": 26,
+      "source": 1,
+      "target": 23,
+      "type": "君臣"
+    },
+    {
+      "id": 27,
+      "source": 2,
+      "target": 10,
+      "type": "兄弟"
+    },
+    {
+      "id": 28,
+      "source": 11,
+      "target": 12,
+      "type": "朋友"
+    },
+    {
+      "id": 29,
+      "source": 16,
+      "target": 17,
+      "type": "朋友"
+    },
+    {
+      "id": 30,
+      "source": 18,
+      "target": 19,
+      "type": "同事"
+    }
+  ]
+}
